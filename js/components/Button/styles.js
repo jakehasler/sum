@@ -2,11 +2,14 @@ import styled from 'styled-components/native';
 import colors from '../../styles/colors';
 
 export const Wrapper = styled.TouchableHighlight`
-  flex: 1;
   justify-content: center;
   align-items: center;
-  height: 75px;
+  height: 65px;
+  width: 65px;
+  border-radius: 32.5px;
   background-color: ${colors.midGray};
+  padding: 8px;
+  margin: 8px;
 `;
 
 export const Value = styled.Text`
